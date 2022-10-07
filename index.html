@@ -68,8 +68,8 @@
 						const numero3= 3;</br></br>
 
 					Tipos de datos:</br>
-					JS al ser un lenguaje dinámico este ya puede saber el tipo de datos según lo que contenga la variable en su interior. Si por ejemplo yo coloco la siguiente linea "var numero1= 1;" (anteriormente nombrada), sabe de antemano al contener un número, tomará el tipo de dato como numérico, lo mismo si contiene comillas "const nombre= "kamel";", entenderá de antemano y sin que nosotros le digamos, que el tipo de dato es de texto. De igual manera se pueden definir manualmente:
-				</br></br>
+					JS al ser un lenguaje dinámico este ya puede saber el tipo de datos según lo que contenga la variable en su interior. Si por ejemplo yo coloco la siguiente linea "var numero1= 1;" (anteriormente nombrada), sabe de antemano al contener un número, tomará el tipo de dato como numérico, lo mismo si contiene comillas "const nombre= "kamel";", entenderá de antemano y sin que nosotros le digamos, que el tipo de dato es de texto. De igual manera se pueden definir manualmente:</br></br>
+					
 					Primitivos:</br></br>
 
 					·undefined: 	tipo de dato undefined.</br>
@@ -99,7 +99,30 @@
 					replace(): Prueba una coincidencia en una cadena y reemplazará la misma por una cadena diferente.</br>
 					search(): Prueba una coincidencia en una cadena y devuelve el índice de lo encontrado, o devolverá un -1 de caso contrario.</br>
 					split(): usa la expresión regular o una cadena fija para dividirla en un arreglo de subcadenas</br>
-</li>
+				</li>
+			</ul>
+		</li>
+		<li>¿Cómo son todas las formas de declaración de funciones en JS?. Hay tres opciones las cuales se van acortando el código a medida de que pasan las opciones
+			<ul>
+				<li>
+					A Través de las funciones declaradas 
+					function persona(){
+						console.log("me llamo kamel");
+					}
+				</li>
+				<li>
+					Se coloca dentro de una variable (y todas las variables dentro del mismo tienen que ser del mismo tipo que la de la funcion),esta funcion se la denomina como anónima ya que la misma no tiene nombre ya que al devolverse directamente a la variable, lo único que se debe de hacer es llamar a la variable.
+
+					const persona = function (){
+						console.log("me llamo kamel");
+					}
+				</li>
+				<li> 
+					Similar a la segunda opción pero se acorta más agregando una flecha y eliminando la palabra función.
+					const persona = () =>{
+						console.log("me llamo kamel");
+					}
+				</li>
 			</ul>
 		</li>
 		
