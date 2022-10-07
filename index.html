@@ -125,7 +125,53 @@
 				</li>
 			</ul>
 		</li>
-		
+		<li>¿Cuáles son los operadores y conversión entre tipos?. 
+			<ul>
+				<li>
+					Operadores:
+					Hay distintos Tipos de operadores los aritmeticos, asignacion y lógicos:
+					
+					a) Aritméticos:
+					Suma: 		var suma: 1 + 2;
+					resta		var resta: 1 - 2;
+					multiplicación	var mult: 1 * 2;
+					división		var div: 1 / 2;
+					modulus	var mod: 1 % 2;
+					incremento	var inc: inc++;
+					decremento	var dec: dec--;
+					
+					b)Asignación:
+					Igual:		a = b;
+					Suma: 		a += b;
+					resta		a -= b;
+					multiplicación	a *= b;
+					división		a /= b;
+					modulus	a %= b;
+					c)Logicos:
+					igual:		a==b;
+					menor:		a<=b;
+					mayor:		a>=b;
+					desigual:		a!=b;
+					and:		a&&b;
+					or:		a||b;
+					
+					Conversión entre tipos:
+					
+					Implicada:
+					Al unir los diferentes tipos de datos JS utiliza jerarquías entre los tipos para poder definir de qué tipo de dato será el resultado. Esto dependerá del tipo y operación. Dichas conversiones se pueden convertir a string o a numero, si es una suma y hay un string el resultado sera un caracter, y si es otra operación y no hay un string, este se intentara pasar a numerio
+					
+					1) cadena
+					2) número
+					3)condición
+					4)null
+					5)indefinido
+					
+					Explícita:
+					O también llamado perseo utilizando la funciones Number(), String(), Boolean(). En la cual toda variable que entre , por ejemplo, en Number se va intentar convertir en número, un condicional se convertirá en 1 o 0 , y un texto si contiene algún número se convertirá en ese valor. Pero lo que pasa con Boolean es que si ponemos un carácter como "Boolean("false")" lo tomara como verdadero, en cambio, si a este no le ponemos nada y solo dejamos las comillas lo tomara como falso.Lo mismo pasará si intentamos convertir un número, la única manera que el valor sea falso será 0, el resto de números dará verdadero.
+					</li>
+			</ul>
+		</li>
+		<li></li>
 	</ol>
 	
 </body>
