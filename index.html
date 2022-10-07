@@ -57,6 +57,52 @@
 				<li></br>< script  src="js/script.js">< /script></br><  script> console.log(); < /script></li>
 			</ul>
 		</li>
+		<li>¿Cómo es el manejo de las variables, tipos de datos y expresiones regulares en JS?.
+			<ul>
+				<li>
+					Manejo de variables:</br>
+					JS permite definir 3 tipos de variables let, const y var. La diferencia entre let y const es que  el primer tipo se le puede asignar el valor y a const por otra parte no. Ejemplo:
+					</br></br>
+						var numero1= 1;</br>
+						let numero2= 2;</br>
+						const numero3= 3;</br></br>
+
+					Tipos de datos:</br>
+					JS al ser un lenguaje dinámico este ya puede saber el tipo de datos según lo que contenga la variable en su interior. Si por ejemplo yo coloco la siguiente linea "var numero1= 1;" (anteriormente nombrada), sabe de antemano al contener un número, tomará el tipo de dato como numérico, lo mismo si contiene comillas "const nombre= "kamel";", entenderá de antemano y sin que nosotros le digamos, que el tipo de dato es de texto. De igual manera se pueden definir manualmente:
+				</br></br>
+					Primitivos:</br></br>
+
+					·undefined: 	tipo de dato undefined.</br>
+					·true/false:	tipo de dato booleano.</br>
+					·2:		tipo de dato numerico</br>
+					·"string":	tipo de dato string.</br>
+					·2n:		tipo de dato bigInt.</br>
+					·Symbol()	tipo de dato symbol.</br></br>
+
+					objetos:</br>
+					·set,array	tipo de dato object.</br></br>
+
+					funciones:</br>
+					·function	tipo de dato funciona.</br></br>
+
+					Expresiones regulares:</br>
+					Se utilizan para coincidir combinaciones de caracteres en cadenas. a estos en JS se los considera como objetos. </br></br>
+
+					·Dichas expresiones se pueden crear con el valor entre barras:</br>
+					var ejemplo = /a+b/;</br></br>
+
+					·o se puede llamar a la función RegExp "var ejemplo 2 = new RegExp('a+b');". Esta se puede cambiar según las necesidades, y pueden ser:</br></br>
+
+					test(): Buscará en una cadena y devolverá true o false.</br>
+					exec(): Prueba una coincidencia en una cadena y devolverá un arreglo  de información o null.</br>
+					match(): Devolverá un arreglo con todas las coincidencias o null de caso contrario.</br>
+					replace(): Prueba una coincidencia en una cadena y reemplazará la misma por una cadena diferente.</br>
+					search(): Prueba una coincidencia en una cadena y devuelve el índice de lo encontrado, o devolverá un -1 de caso contrario.</br>
+					split(): usa la expresión regular o una cadena fija para dividirla en un arreglo de subcadenas</br>
+</li>
+			</ul>
+		</li>
+		
 	</ol>
 	
 </body>
