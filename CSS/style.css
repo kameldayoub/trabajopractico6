@@ -1,3 +1,12 @@
+@font-face {
+    src: url("times new roman.ttf");
+    font-family: cuerpo;
+}
+@font-face {
+    src: url("LiberationSerif-Regular.ttf");
+    font-family: titulo;
+}
+
 body ol li ul li {
     list-style: none;
 }
@@ -7,4 +16,17 @@ img{
     width: 200px;
 }
 
+h1, h2{
+    font-family: titulo;
+    font-size: 20pt;
+}
 
+li, p{
+    font-family: cuerpo;
+    font-size: 12pt;
+}
+
+ol{
+    font-family: cuerpo;
+    font-size: 12pt;
+}
